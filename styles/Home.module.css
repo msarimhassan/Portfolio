@@ -43,6 +43,23 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  text-transform: uppercase;
+  background-size: 300% auto;
+  background-image: linear-gradient(to left,#2ecc71, #3498db,#9b59b6,#f39c12);
+  background-clip: text;  
+  -webkit-text-fill-color: transparent;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate {
+  0%{
+    background-position: 0 100%;
+  }
+    50% {
+      background-position: 100% 0;
+    }
+        100% {
+          background-position: 0 100%;
+        }
 }
 
 .title,
