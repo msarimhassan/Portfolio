@@ -1,0 +1,35 @@
+
+.card{
+    max-width:392px;
+    border: 1px solid #2d3748;    
+    background-color: #171923;
+    color: #a0aec0;
+    padding: 50px;
+    margin: 20px;
+    font-size: 1.2em;
+  
+}
+.card>h2{
+    color: #4299e1;
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start
+}
+.box{
+    border: 1px solid white;
+}
+
+.subtitle{
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+@media screen and (max-width:600px){
+ .cardContainer{
+        justify-content: center;
+    }.card{
+        padding:20px
+    }
+}
