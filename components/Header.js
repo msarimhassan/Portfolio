@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../styles/Header.module.css';
 import Image from 'next/image';
 import Logo from '../assets/images/Logo_SH.png';
+import Link from 'next/link';
 
 export default function Header() {
     return (
@@ -10,12 +11,12 @@ export default function Header() {
             {/* Header div */}
             <div className={styles.header}>
                 <div>
-                    <Image src={Logo} height='100px' width='150px' alt='Sarim Hassan' />
+                   <Link href='/'><Image src={Logo} height='100px' width='150px' alt='Sarim Hassan' /></Link>
                 </div>
                 <div>
                     <ul className={styles.headerMenu}>
-                        <li>Projects</li>
-                        <li>About</li>
+                        <li><Link href='/projects'>Projects</Link></li>
+                        <li><Link href='/'>About</Link></li>
                     </ul>
                 </div>
             </div>
