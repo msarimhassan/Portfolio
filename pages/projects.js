@@ -4,7 +4,6 @@ import Header from '../components/Header';
 import styles from '../styles/Projects.module.css';
 import axios from 'axios';
 export default function projects({ projects }) {
-    console.log({ projects });
     return (
         <>
             <Head>
