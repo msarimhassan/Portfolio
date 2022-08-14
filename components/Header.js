@@ -11,12 +11,18 @@ export default function Header() {
             {/* Header div */}
             <div className={styles.header}>
                 <div>
-                   <Link href='/'><Image src={Logo} height='80px' width='80px' alt='Sarim Hassan' /></Link>
+                    <Link href='/'>
+                        <Image src={Logo} height='80px' width='80px' alt='Sarim Hassan' />
+                    </Link>
                 </div>
                 <div>
                     <ul className={styles.headerMenu}>
-                        <li><Link href='/Projects'>Projects</Link></li>
-                        <li><Link href='/About'>About</Link></li>
+                        <li>
+                            <Link href='/projects'>Projects</Link>
+                        </li>
+                        <li>
+                            <Link href='/about'>About</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
