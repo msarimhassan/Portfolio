@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Header.module.css';
 import Image from 'next/image';
-import Logo from '../assets/images/Logo_SH.png';
+import Logo from '../assets/images/Logo.png';
 import Link from 'next/link';
 
 export default function Header() {
@@ -11,7 +11,7 @@ export default function Header() {
             {/* Header div */}
             <div className={styles.header}>
                 <div>
-                   <Link href='/'><Image src={Logo} height='100px' width='150px' alt='Sarim Hassan' /></Link>
+                   <Link href='/'><Image src={Logo} height='80px' width='80px' alt='Sarim Hassan' /></Link>
                 </div>
                 <div>
                     <ul className={styles.headerMenu}>
