@@ -11,10 +11,10 @@ const Footer = () => {
                     <AI.AiFillGithub size={30} className={styles.icon} />
                 </a>
                 <a href='https://twitter.com/msarimhassan' rel='noopener noreferrer'>
-                    <AI.AiOutlineTwitter size={30} className={styles.icon} color='#1DA1F2' />
+                    <AI.AiOutlineTwitter size={30} className={styles.icon}  />
                 </a>
                 <a href='https://www.linkedin.com/in/msarimhassan' rel='noopener noreferrer'>
-                    <AI.AiFillLinkedin size={30} className={styles.icon} color='#0077B5' />
+                    <AI.AiFillLinkedin size={30} className={styles.icon}  />
                 </a>
             </div>
             <div>

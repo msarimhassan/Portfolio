@@ -38,7 +38,6 @@ const Projects = ({ projects }) => {
 };
 export async function getStaticProps() {
     const res = await axios.get('https://api.github.com/users/msarimhassan/repos');
-    console.log({ res });
     const projects = res.data;
     return {
         props: {
