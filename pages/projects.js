@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import styles from '../styles/Projects.module.css';
 import axios from 'axios';
-export default function projects({ projects }) {
+const Projects = ({ projects }) => {
     return (
         <>
             <Head>
@@ -35,8 +35,7 @@ export default function projects({ projects }) {
             </main>
         </>
     );
-}
-
+};
 export async function getStaticProps() {
     const res = await axios.get('https://api.github.com/users/msarimhassan/repos');
     console.log({ res });
@@ -47,3 +46,4 @@ export async function getStaticProps() {
         },
     };
 }
+export default Projects;
