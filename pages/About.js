@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Myself from '../assets/images/Sarim.png';
 import styles from '../styles/About.module.css';
 import { Icons } from '../common';
-export default function About() {
+export default function about() {
     const { AI } = Icons;
     return (
         <div>
