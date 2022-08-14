@@ -4,16 +4,14 @@
     height: 5px;
     
 }
-
-
-
 .headerMenu>li{
    display: inline;
    margin: 20px;
-   padding: 10px;
+  padding: 5px 15px;
 }
 
 .headerMenu>li:hover{
+    display: inline;
     margin: 20px;
     border-radius: 2px;
     border:1px solid #2d3748;

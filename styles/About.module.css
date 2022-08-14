@@ -1,35 +1,70 @@
 
-.card{
-    max-width:392px;
-    border: 1px solid #2d3748;    
-    background-color: #171923;
-    color: #a0aec0;
-    padding: 50px;
-    margin: 20px;
-    font-size: 1.2em;
-  
-}
-.card>h2{
-    color: #4299e1;
-}
-.cardContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start
-}
-.box{
-    border: 1px solid white;
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
+.introContainer{
+   display:flex;
+   align-items: center;
+   flex-direction: row;
+}
+
+.intro{
+   line-height: 0.8;
+   margin: 0 10px;
+}
+.lines{
+   font-size: large;
+   font-weight: bolder;
+   max-width: 600px;
+   line-height: 1.8;
+}
+
+.imageContainer{
+   border:5px solid #067BFE;
+   overflow: hidden;
+   border-radius: 80px;
+   width: 150px;
+   height: 150px;
+   background-color: #067BFE;
+}
 .subtitle{
-    font-size: 1.2em;
-    line-height: 1;
+   color: #cbd5e0;
 }
 
-@media screen and (max-width:600px){
- .cardContainer{
-        justify-content: center;
-    }.card{
-        padding:20px
-    }
+.githubbtn{
+   border: 1px solid #4a5568;
+   background-color: #333;
+   color: white;
+   text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   border-radius: 5px;
+   font-weight: bolder;
+   padding: 10px 20px;
+   margin: 5px;
+}
+.linkedinbtn{
+   border: 1px solid #4a5568;
+      background-color: #0e76a8;
+      color: white;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      font-weight: bolder;
+      padding: 10px 20px;
+      margin: 5px;
+      justify-content: space-between;
+}
+.btnText{
+   padding: 0px 5px;
+}
+@media only screen and (max-width:600px){
+   .container{
+      margin: 0px 20px;
+   }
+   
 }
