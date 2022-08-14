@@ -19,12 +19,14 @@ export default function projects({ projects }) {
                         </div>
                         {/* project Container */}
                         <div className={styles.cardContainer}>
-                            {projects.map((project)=>{
+                            {projects.map((project) => {
                                 return (
-                                   <a href={project.html_url} target='_blank'><div className={styles.card}>
-                                        <h2>{project.name}</h2>
-                                        <p>{project.description}</p>
-                                    </div></a>
+                                    <a href={project.html_url} rel='noopener noreferrer'>
+                                        <div className={styles.card}>
+                                            <h2>{project.name}</h2>
+                                            <p>{project.description}</p>
+                                        </div>
+                                    </a>
                                 );
                             })}
                         </div>
