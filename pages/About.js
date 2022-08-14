@@ -21,7 +21,7 @@ export default function About() {
                         {/* image and name */}
                         <div className={styles.introContainer}>
                             <div className={styles.imageContainer}>
-                                <Image src={Myself} layout='intrinsic' />
+                                <Image src={Myself} layout='intrinsic' alt='Sarim' />
                             </div>
                             <div className={styles.intro}>
                                 <h1>Sarim Hassan</h1>
@@ -36,13 +36,16 @@ export default function About() {
                         </div>
                         {/* buttons */}
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <a href='https://github.com/msarimhassan' target='_blank'>
+                            <a href='https://github.com/msarimhassan' rel='noopener noreferrer'>
                                 <div className={styles.githubbtn}>
                                     <AI.AiFillGithub size={20} />
                                     <span className={styles.btnText}>github</span>
                                 </div>
                             </a>
-                            <a href='https://www.linkedin.com/in/msarimhassan' target='_blank'>
+                            <a
+                                href='https://www.linkedin.com/in/msarimhassan'
+                                rel='noopener noreferrer'
+                            >
                                 <div className={styles.linkedinbtn}>
                                     <AI.AiFillLinkedin size={20} />
                                     <span className={styles.btnText}>linkedin</span>
