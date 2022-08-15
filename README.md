@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="assets/images/portfolio-banner.jpg" alt="Sarim">
+<br/>
+<div align="center">
+  <h1>
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+  <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
+  </h1>
+</div>
 
-## Getting Started
+## How To Use 🔧
 
-First, run the development server:
+From your command line, first clone Portfolio:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone the repository
+$ git clone https://github.com/msarimhassan/Portfolio
+# Move into the repository
+$ cd Portfolio
+# Remove the current origin repository
+$ git remote remove origin
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After that, you can install the dependencies either using NPM or Yarn.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Using NPM: Simply run the below commands.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+# Install dependencies
+$ npm install
+# Start the development server
+$ npm start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Using Yarn: Be aware of that you'll need to delete the `package-lock.json` file before executing the below commands.
 
-## Learn More
+```bash
+# Install dependencies
+$ yarn
+# Start the development server
+$ yarn start
+```
+## Technologies used 🛠️
 
-To learn more about Next.js, take a look at the following resources:
+- [Nextjs](https://nextjs.org/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
