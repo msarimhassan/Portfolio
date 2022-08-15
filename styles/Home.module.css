@@ -58,6 +58,7 @@
 }
 .title {
   margin: 0;
+font-family: 'Raleway', sans-serif;
   line-height: 1.15;
   font-size: 6rem;
   font-weight: bolder;
@@ -88,12 +89,14 @@
   flex-wrap: wrap;
   max-width: 800px;
   flex-direction: column;
+  font-family: 'Raleway', sans-serif;
 }
 .description {
   margin: 2rem 2em;
   line-height: 1.5;
   font-size: 2rem;
   color: #cbd5e0;
+  font-family: 'Raleway', sans-serif;
 }
 .card {
   margin: 1rem;
@@ -115,6 +118,7 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 .card p {

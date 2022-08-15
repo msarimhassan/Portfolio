@@ -3,6 +3,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
+   font-family: 'Raleway', sans-serif;
 }
 
 .introContainer{
@@ -45,6 +46,7 @@
    font-weight: bolder;
    padding: 10px 20px;
    margin: 5px;
+   font-family: 'Raleway', sans-serif;
 }
 .linkedinbtn{
    border: 1px solid #4a5568;
@@ -58,6 +60,7 @@
       padding: 10px 20px;
       margin: 5px;
       justify-content: space-between;
+      font-family: 'Raleway', sans-serif;
 }
 .btnText{
    padding: 0px 5px;

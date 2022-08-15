@@ -14,6 +14,7 @@
 }
 .card>h2{
     color: #4299e1;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container{
@@ -27,6 +28,7 @@
     align-items: center;
     line-height: 0.2;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
 }
 .cardContainer{
     display: flex;
